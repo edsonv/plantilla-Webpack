@@ -1,0 +1,38 @@
+{
+  "name": "001-title_webpack",
+  "version": "1.0.0",
+  "description": "Plantilla de configuración de Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.prod.config.js",
+    "build:watch": "webpack --watch --config ./webpack.config.js",
+    "build:dev": "webpack-dev-server --config ./webpack.dev.config.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/edsonv/plantilla-Webpack.git"
+      },
+      "author": "Edson J Vargas",
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/edsonv/plantilla-Webpack/issues"
+        },
+        "homepage": "https://github.com/edsonv/plantilla-Webpack#readme",
+        "devDependencies": {
+          "css-loader": "^1.0.0",
+          "extract-text-webpack-plugin": "^3.0.2",
+          "html-loader": "^0.5.5",
+          "html-webpack-plugin": "^3.2.0",
+          "mini-css-extract-plugin": "^0.4.1",
+          "postcss-cssnext": "^3.1.0",
+          "postcss-loader": "^3.0.0",
+          "style-loader": "^0.22.1",
+          "webpack": "^4.16.5",
+          "webpack-cli": "^3.1.0",
+          "webpack-dev-server": "^3.1.5"
+          },
+          "dependencies": {},
+          "browserslist": [
+          "last 2 versions"
+          ]
+        }
